@@ -109,7 +109,6 @@ align-items: center;
 .outermost-container-for-grid{
     height: 660px;
     width: 100%;
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
