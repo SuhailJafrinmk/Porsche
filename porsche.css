@@ -1,0 +1,529 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.outermost-container-for-footer{
+    height: 83px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-for-footer{
+    height: 83px;
+    width: 1360px;
+    display: flex;
+    justify-content: space-between;
+}
+.menubar{
+    height: 83px;
+    width: 300px;
+    display: flex;
+    padding: 30px;
+
+}
+.porsche-logo{
+    height: 83px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spacer{
+    height: 83px;
+    width: 300px;
+}
+.menubar img{
+    height: 20px;
+    width: 20px;
+}
+.menubar h5{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.porsche-logo svg{
+    height: 100px;
+    width: 200px;
+}
+.outermost-container-for-coverimage{
+    height: 518px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer-container-for-coverimage{
+    height: 518px;
+    width: 1360px;
+    background-image: url(porscheimages/porsche-normal.webp);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.outer-container-for-coverimage div{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.text-box{
+    width: 700px;
+    height: auto;
+    margin-left: 70px;
+}
+.text-box h1{
+    font-size: 45px;
+    color: white;
+}
+.text-box h3{
+    font-size: 30px;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+span{
+    color: red;
+}
+.text-box h3:hover,h1:hover{
+    color: red;
+}
+.outermost-container-for-models{
+height: 90px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;    
+}
+.outer-container-models{
+    height: 90px;
+    width: 1355px;
+}
+.text-models{
+    height: 90px;
+    width: 300px;
+    text-align: center;
+    padding-top: 25px;
+}
+.text-models h1{
+    font-size: 40px;
+}
+.outermost-container-for-grid{
+    height: 660px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer-container-for-grid{
+    height: 660px;
+    width: 1355px;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-image-one{
+    background-image: url(porscheimages/porsche-image-one.webp);
+
+}
+.grid-image-two{
+    background-image: url(porscheimages/porsche-image-two.webp);
+
+}
+.grid-image-three{
+    background-image: url(porscheimages/porsche-image-three.webp);
+
+}
+.grid-image-four{
+    background-image: url(porscheimages/porsche-image-four.webp);
+
+}
+.grid-image-five{
+    background-image: url(porscheimages/porsche-image-five.webp);
+
+}
+.grid-image-six{
+    background-image: url(porscheimages/porsche-image-six.webp);
+}
+.grid-image-one,.grid-image-two,.grid-image-three,.grid-image-four,.grid-image-five,.grid-image-six{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+.button-1{
+    height: 50px;
+    width: 163px;
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 15px;
+    border: none;
+}
+.button-2{
+    height: 50px;
+    width: 131px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+    border: 1px solid white;
+    margin-left: 15px;
+}
+.outer-container-for-grid h1{
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+
+}
+.outer-container-for-grid h4{
+    font-size: 21px;
+    color: white;
+    margin-left: 20px;
+}
+.outermost-container-tandc{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.outer-container-for-tandc{
+    height: 80px;
+    width: 1360px;
+    display: flex;
+    justify-content: center;
+
+}
+.tandc{
+    height: 80px;
+    width: 1150px;
+}
+.tandc p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.outermost-container-secondgrid{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.outer-container-secondgrid{
+    height: 500px;
+    width: 1360;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondgrid{
+    height: 400px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.porsche-near{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    align-items: center;
+}
+.car-images-grid{
+    height: 300px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.porsche-near h1{
+    margin-right: 750px;
+}
+.gridone{
+    background-image: url(porscheimages/porsche1.webp);
+}
+.gridtwo{
+    background-image: url(porscheimages/porschetwo.webp);
+}
+.gridthree{
+    background-image: url(porscheimages/porschethree.webp);
+}
+.car-images-grid button{
+    margin-top: 240px;
+    margin-left: 140px;
+    height: 51px;
+    width: 175px;
+    font-size: 16px;
+    background-color: #454545;
+    color: white;
+    border: none;
+}
+.car-images-grid button:hover{
+    background-color: #d5001c;
+}
+.outermost-container-shopping-tools{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+.outer-container-shoppingtools{
+    width: 1360px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+.container-shoppingtools{
+    width: 1150px;
+    height: 350 px;
+    display: grid;
+    grid-template-rows: .5fr 2fr;
+}
+.container-shoppingtools h1{
+    font-size: 40px;
+}
+.shopping-tools-image-container{
+    height: 260px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+.shopping-tools-imageone{
+    background-image: url(porscheimages/shoppingtoolsimg1.webp);
+    background-size: cover;
+}
+.shopping-tools-imagetwo{
+    background-image: url(porscheimages/shoppingtoolsimg2.webp);
+}
+.shopping-tools-imagethree{
+    background-image: url(porscheimages/shoppingtoolsimg3.webp);
+}
+.shopping-tools-imagefour{
+    background-image: url(porscheimages/shoppingtoolsimg4.webp);
+}
+.shopping-tools-imageone,.shopping-tools-imagetwo,.shopping-tools-imagethree,.shopping-tools-imagefour{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.subdiv{
+    height: 50px;
+    width: 100%;
+}
+.subdiv h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.subdiv h3:hover{
+    color: #d5001c;
+}
+.subdiv span{
+    color: #d5001c;
+}
+.outermost-9-image-container{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.outer-9-image-container{
+    height: 700px;
+    width: 1360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nine-image-container{
+    height: 600px;
+    width: 1150px;
+
+}
+.porschesocial{
+    width: 100%;
+    height: 80px;
+}
+.porschesocial h1{
+    font-size: 40px;
+}
+.image-container-grid{
+    width: 100%;
+    height: 520px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 8px;
+     
+}
+.columncontainerone{
+    display: grid;
+    grid-template-rows: 60% 40%;
+    row-gap: 8px;
+}
+.columncontainertwo{
+    display: grid;
+    grid-template-rows: 40% 60%;
+    row-gap: 8px;
+
+}
+.columncontainerthree{
+    display: grid;
+    grid-template-rows: 60% 40%;
+    row-gap: 8px;
+
+}
+.two-fraction{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8px;
+}
+.columnone-one{
+    background-image: url(porscheimages/grid\ one\ first.webp);
+    background-size: cover;
+}
+.columnone-two{
+    background-image: url(porscheimages/grid\ one\ second.webp);
+    background-size: cover;
+}
+.columnone-three{
+    background-image: url(porscheimages/gridonethird.webp);
+    background-size: cover
+}
+.columntwo-one{
+    background-image: url(porscheimages/gridtwoone.webp);
+    background-size: cover;
+}
+.columntwo-two{
+    background-image: url(porscheimages/gridtwotwo.webp);
+    background-size: cover;
+}
+.columntwo-three{
+    background-image: url(porscheimages/gridtwothree.webp);
+    background-size: cover;
+}
+.columnthree-one{
+    background-image: url(porscheimages/gridthreeone.webp);
+    background-size: cover;
+}
+.columnthree-two{
+    background-image: url(porscheimages/gridthreetwo.webp);
+    background-size: cover;
+}
+.columnthree-three{
+    background-image: url(porscheimages/gridthreethree.webp);
+    background-size: cover;
+}
+.outermostcontainer-loadmore{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.outercontainer-loadmore{
+    height: 100%;
+    width: 1360px;
+
+}
+.outermostcontainer-discover{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+}
+.outercontainer-discover{
+    width: 1360px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+}
+.container-discover{
+    width: 1200px;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+.discover-text h1{
+    font-size: 40px;
+}
+.imagegridcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.discoverimg-one{
+    background-image: url(porscheimages/discoverimg-one.webp);
+    background-size: cover;
+}
+.discoverimg-two{
+    background-image: url(porscheimages/discoverimg-two.webp);
+    background-size: cover;
+}
+.discoverimg-three{
+    background-image: url(porscheimages/discoverimg-three.webp);
+    background-size: cover;
+}
+.discoverimg-four{
+    background-image: url(porscheimages/discoverimg-four.webp);
+    background-size:cover;
+}
+.spacecontainer{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+.outermost-container-footer{
+    height: 570px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.outer-container-footer{
+    height: 100%;
+    width: 1360px;
+    display: flex;
+    justify-content: center;
+}
+.container-footer{
+    height: 100%;
+    width: 1160px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.footer-one,.footer-two,.footer-three,.footer-four{
+    display: flex;
+    flex-direction: column;
+}
+.container-footer a{
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 25px;
+    color: black;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-footer a:hover{
+    color: #d5001c;
+}
+.shareandconnect{
+    width: 100%;
+    height: 220px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+
+}
+.share,.connect{
+    height: 70px;
+    width: 100%;
+    margin-top: 60px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.share p{
+    font-size: 19px;
+}
+.connect svg{
+    height: 40px;
+    width: 40px;
+}
+
+
